@@ -1,3 +1,5 @@
+# Multiparadigmatic  programming languages:Task_6
+# Maystruk Sergey:IKM-221a
 # numbers.txt
 
 # зчитування чисел з файлу та обчислення їх суми
