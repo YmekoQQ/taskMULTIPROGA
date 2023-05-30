@@ -1,0 +1,7 @@
+with open("numbers.txt", "r") as f:
+    numbers = f.readlines()
+    total = sum([int(x) for x in numbers])
+# виведення суми на екран і запис до іншого файлу print("Сума чисел:", total)
+print("Сума чисел:", total)
+with open("sum_numbers.txt", "w") as f:
+    f.write(str(total))
